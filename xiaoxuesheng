@@ -1,70 +1,11 @@
-第零步时安装docker
-第一步是拉取镜像
-第二部是创建容器和启动
 
-///////docker run -dit --entrypoint="/post/system_modules/init.sh" --network=host --privileged=true --restart=always -v /srv/workspace/snpe_caffe:/srv/workspace -v /etc/localtime:/etc/localtime --name snpe_caffe snpeCaffe ssh_port=50022 user_name=snpe_caffe user_id=3001
-
-
-docker run --name snpeCaffe  -v /srv/workspace/snpe_caffe:/srv/workspace -v /etc/localtime:/etc/localtime -itd afc9cdc42336 /bin/bash
-                              容器名字        挂载到宿主机的地址             容器内部地址            这个时区同步                               要启动的镜像id   使用的bash
                               
                               
                               
-相关文档：
-Q平台模型转换工具SNPE安装
-官方安装流程
-https://developer.qualcomm.com/docs/snpe/setup_caffe.html
-SDK NDK环境配置
-https://blog.csdn.net/weixin_38498942/article/details/105241369
 
 
 
-caffe安装
-指定python版本
-https://blog.csdn.net/qq_40755643/article/details/96479882
 
-相关bug解决
-https://blog.csdn.net/m0_37407756/article/details/70789271
-
-
-服务器上安装东西或者访问外网的话，要设置很多代理，如果有设置不用参照，如果没有可以参照如下
-1.1设置代理之前确认ubuntu桌面版系统版本 cat  /proc/version
-其中不同版本对应的 /etc/apt/sources.list 下的源稍有不一样
-参考：http://3ms.huawei.com/km/blogs/details/6419459
-
-1.2基本更改文件方向 vi /etc/apt/apt.conf
-					vi /etc/apt/source.list
-					vi ~/.bashrc ;  source  ~/.bashrc
-					vi /etc/hosts
-
-1.3相关bug修改
-http://3ms.huawei.com/km/blogs/details/5974271
-
-提供两个别人可用的代理 在vi ~/.bashrc 最后添加任意一个试试
-export no_proxy=.huawei.com
-export proxy="http://x00418655:xuexixi_123@proxyhk.huawei.com:8080"
-export http_proxy="http://x00418655:xuexixi_123@proxyhk.huawei.com:8080"
-export https_proxy="https://x00418655:xuexixi_123@proxyhk.huawei.com:8080"
-
-export no_proxy=.huawei.com
-export proxy="http://z00424201:!Z15135166591@proxy.huawei.com:8080"
-export http_proxy="http://z00424201:!Z15135166591@proxy.huawei.com:8080"
-export https_proxy="http://z00424201:!Z15135166591@proxy.huawei.com:8080"
-
-1.4 安装配置cntlm 来访问外部源链接 
-参考：http://3ms.huawei.com/km/blogs/details/6501751
-（用自己的域账号和密码）
-
-
-第零步时安装docker
-第一步是拉取镜像
-第二部是创建容器和启动
-
-///////docker run -dit --entrypoint="/post/system_modules/init.sh" --network=host --privileged=true --restart=always -v /srv/workspace/snpe_caffe:/srv/workspace -v /etc/localtime:/etc/localtime --name snpe_caffe snpeCaffe ssh_port=50022 user_name=snpe_caffe user_id=3001
-
-
-docker run --name snpeCaffe  -v /srv/workspace/snpe_caffe:/srv/workspace -v /etc/localtime:/etc/localtime -itd afc9cdc42336 /bin/bash
-                              容器名字        挂载到宿主机的地址             容器内部地址            这个时区同步                               要启动的镜像id   使用的bash
                               
                               
                   

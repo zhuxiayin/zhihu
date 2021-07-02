@@ -136,3 +136,18 @@ https://www.cnblogs.com/linuxAndMcu/category/1048923.html
 
 
 https://blog.csdn.net/qq_42722197/article/details/116409688?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_baidulandingword-0&spm=1001.2101.3001.4242
+
+https://zhuanlan.zhihu.com/p/94853040
+import argparse
+import cv2
+import sys
+import numpy as np
+import pickle
+import os
+import mxnet as mx
+import menpo.io as mio
+import datetime
+import img_helper
+from skimage import transform as trans
+import insightface
+import insightface.model_zoo2

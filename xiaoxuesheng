@@ -151,3 +151,9 @@ import img_helper
 from skimage import transform as trans
 import insightface
 import insightface.model_zoo2
+https://blog.csdn.net/qq_41684249/article/details/111302649
+https://blog.csdn.net/xiaotuzigaga/article/details/89202453
+https://blog.csdn.net/weixin_45829462/article/details/117673381
+https://github.com/zhanghang1989/ResNeSt
+那就必须--index-url http://cmc-cd-mirror.rnd.huawei.com/pypi/simple/ --trusted-host cmc-cd-mirror.rnd.huawei.com
+http://3ms.huawei.com/km/blogs/details/6025043

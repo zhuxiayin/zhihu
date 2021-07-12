@@ -157,3 +157,9 @@ https://blog.csdn.net/weixin_45829462/article/details/117673381
 https://github.com/zhanghang1989/ResNeSt
 那就必须--index-url http://cmc-cd-mirror.rnd.huawei.com/pypi/simple/ --trusted-host cmc-cd-mirror.rnd.huawei.com
 http://3ms.huawei.com/km/blogs/details/6025043
+mxnet
+https://murphypei.github.io/blog/2018/08/mxnet-load-pretrained.html
+3d仿射变换矩阵到欧拉角
+https://learnopencv.com/rotation-matrix-to-euler-angles/
+
+

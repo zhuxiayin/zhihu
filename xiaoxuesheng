@@ -115,51 +115,16 @@ while(True):
         x0 = x0 + 5
         https://www.bilibili.com/medialist/play/watchlater/BV1WJ411B7nL
 
-7.183.24.125 22  50022
-10.115.248.198 22
---index-url http://cmc-cd-mirror.rnd.huawei.com/pypi/simple/ --trusted-host cmc-cd-mirror.rnd.huawei.com
-
 鼠标键盘监控控制https://www.jianshu.com/p/8e508c6a05ce
 https://blog.csdn.net/intflojx/article/details/81778648
 dlib库
 https://blog.csdn.net/Feeryman_Lee/article/details/103203152
 
-https://www.cnblogs.com/lifexy/p/8562358.html
 https://blog.csdn.net/qq_32483145/article/details/52903502
 https://blog.csdn.net/qq_32483145/article/details/52901230
 
-https://bbs.pediy.com/thread-252270.htm
 https://cloud.tencent.com/developer/column/2289
 https://zhuanlan.zhihu.com/p/89445987
 
-https://www.cnblogs.com/linuxAndMcu/category/1048923.html
-
-
-https://blog.csdn.net/qq_42722197/article/details/116409688?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_baidulandingword-0&spm=1001.2101.3001.4242
-
-https://zhuanlan.zhihu.com/p/94853040
-import argparse
-import cv2
-import sys
-import numpy as np
-import pickle
-import os
-import mxnet as mx
-import menpo.io as mio
-import datetime
-import img_helper
-from skimage import transform as trans
-import insightface
-import insightface.model_zoo2
-https://blog.csdn.net/qq_41684249/article/details/111302649
-https://blog.csdn.net/xiaotuzigaga/article/details/89202453
-https://blog.csdn.net/weixin_45829462/article/details/117673381
-https://github.com/zhanghang1989/ResNeSt
-那就必须--index-url http://cmc-cd-mirror.rnd.huawei.com/pypi/simple/ --trusted-host cmc-cd-mirror.rnd.huawei.com
-http://3ms.huawei.com/km/blogs/details/6025043
-mxnet
-https://murphypei.github.io/blog/2018/08/mxnet-load-pretrained.html
-3d仿射变换矩阵到欧拉角
-https://learnopencv.com/rotation-matrix-to-euler-angles/
 
 
